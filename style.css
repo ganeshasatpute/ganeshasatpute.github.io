@@ -136,4 +136,27 @@ font-size: 14px;
 margin-top: 8px;
 }
 
+/* Define class for media queries */
+@media only screen and (min-width: 768px) {
+  div#navigation {
+    float: left;
+    position: fixed;
+    top: 15px;
+    width: 170px;
+    padding: 0 20px;
+  }
 
+
+  div#navigation > a {
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+  }
+  
+  div#content {
+    margin: 20px 0 0 206px;
+    padding: 0 36px;
+    width: 1000px;
+  }
+
+}
