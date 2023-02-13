@@ -1,0 +1,44 @@
+@reset {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+html {
+background-color: white;
+}
+
+body {
+color: #555;
+}
+
+a {
+text-decoration: none;
+}
+
+
+div#navigation {
+  text-align: center;
+}
+
+div#navigation a {
+  margin: 0px 5px 0px 5px;
+}
+
+div#content {
+  margin: 13px;
+}
+
+
+h1 {
+font-size: 26px;
+font-weight: normal;
+}
+
+h2 {
+font-size: 22px;
+font-weight: normal;
+}
