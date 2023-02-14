@@ -50,8 +50,40 @@ font-weight: normal;
 }
 
 
-
 /* Define class for media queries */
+@media only screen and (max-width: 1200px) {
+/* Define styles for medium screens */
+.container {
+width: 100%;
+padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+/* Define styles for tablet screens */
+.container {
+width: 100%;
+padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+/* Define styles for small screens */
+.container {
+width: 100%;
+padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+/* Define styles for mobile screens */
+.container {
+width: 100%;
+padding: 0 20px;
+}
+}
+
+/* Define class for media queries Responsive for larger screen
 
 @media only screen and (min-width: 768px) {
   div#navigation {
@@ -74,3 +106,5 @@ font-weight: normal;
     width: 1000px;
   }
 }
+
+*/
