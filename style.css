@@ -63,35 +63,33 @@ font-weight: normal;
 
 /*
 @media all and (max-width: 821px) {
-  /* Define styles for small screens */
   div#navigation {
     position: static;
     float: none;
-    width: 100%; /* changed to 100% */
+    width: 100%; 
     padding: 0;
     margin-bottom: 1rem;
   }
   div#navigation > a {
     display: inline-block;
     text-align: center;
-    margin: 0.5rem; /* changed to 0.5rem */
+    margin: 0.5rem; 
     font-size: 0.9rem;
   }
   div#content {
     margin: 1rem;
     padding: 0 2%;
-    max-width: 100%; /* changed to max-width */
+    max-width: 100%; 
     font-size: 1rem;
   }
 }
 
 @media all and (min-width: 822px) {
-  /* Define styles for larger screens */
   div#navigation {
     float: left;
     position: fixed;
     top: 1.5rem;
-    width: 20%; /* changed to 20% */
+    width: 20%; 
     padding: 0 2%;
   }
   div#navigation > a {
@@ -105,7 +103,7 @@ font-weight: normal;
     padding: 0;
     width: 80%;
     font-size: 1.5em;
-    max-width: none; /* changed to none */
+    max-width: none;
   }
 }
 
