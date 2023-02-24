@@ -64,40 +64,7 @@ font-weight: normal;
 /* Define class for media queries */
 @media only screen and (max-width: 1200px) {
 /* Define styles for medium screens */
-.container {
-width: 100%;
-padding: 0 20px;
-}
-}
-
-@media only screen and (max-width: 992px) {
-/* Define styles for tablet screens */
-.container {
-width: 100%;
-padding: 0 20px;
-}
-}
-
-@media only screen and (max-width: 600px) {
-/* Define styles for small screens */
-.container {
-width: 100%;
-padding: 0 20px;
-}
-}
-
-@media only screen and (max-width: 480px) {
-/* Define styles for mobile screens */
-.container {
-width: 100%;
-padding: 0 20px;
-}
-}
-
-/* Define class for media queries Responsive for larger screen
-
-@media only screen and (min-width: 768px) {
-  div#navigation {
+div#navigation {
     float: left;
     position: fixed;
     top: 15px;
@@ -118,4 +85,42 @@ padding: 0 20px;
   }
 }
 
-*/
+@media only screen and (max-width: 992px) {
+/* Define styles for tablet screens */
+div#navigation {
+    float: left;
+    position: fixed;
+    top: 15px;
+    width: 170px;
+    padding: 0 20px;
+  }
+
+  div#navigation > a {
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+  }
+  
+  div#content {
+    margin: 20px 0 0 206px;
+    padding: 0 36px;
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 768px {
+/* Define styles for small screens */
+div#content {
+width: 100%;
+padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+/* Define styles for mobile screens */
+div#content {
+width: 100%;
+padding: 0 20px;
+}
+}
+
