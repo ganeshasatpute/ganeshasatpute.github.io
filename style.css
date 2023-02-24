@@ -1,9 +1,17 @@
 html {
 background-color: white;
+font-family: "Helvetica Neue", Arial, sans-serif;
+line-height: 24px;
+margin: 0px;
+padding: 0px;
+height: 100%;
 }
 
 body {
 color: #555;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+height: 100%;
 }
 
 a {
