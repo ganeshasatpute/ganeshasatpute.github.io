@@ -61,7 +61,7 @@ font-weight: normal;
 
 
 
-/* Define class for media queries */
+/* Define class for media queries 
 
 @media all and (max-width: 821px) {
   /* Define styles for small screens */
@@ -110,5 +110,6 @@ font-weight: normal;
   }
 }
 
+*/
 
 
