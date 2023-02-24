@@ -68,46 +68,47 @@ font-weight: normal;
   div#navigation {
     position: static;
     float: none;
-    width: auto;
+    width: 100%; /* changed to 100% */
     padding: 0;
     margin-bottom: 1rem;
   }
   div#navigation > a {
-    display: inline-block;
+    display: block; /* changed to block */
     text-align: center;
-    margin: 0 1rem;
+    margin: 0.5rem 0; /* changed to 0.5rem */
     font-size: 0.9rem;
   }
   div#content {
-    margin: 1rem 0 0;
+    margin: 1rem 0;
     padding: 0 2%;
-    width: 100%;
+    max-width: 100%; /* changed to max-width */
     font-size: 1rem;
   }
 }
 
-
 @media all and (min-width: 822px) {
-/* Define styles for small screens */
-div#navigation {
-float: left;
-position: fixed;
-top: 1.5rem;
-width: 17%;
-padding: 0 2%;
+  /* Define styles for larger screens */
+  div#navigation {
+    float: left;
+    position: fixed;
+    top: 1.5rem;
+    width: 20%; /* changed to 20% */
+    padding: 0 2%;
+  }
+  div#navigation > a {
+    display: block;
+    text-align: right;
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  div#content {
+    margin: 2rem 0 0 20%;
+    padding: 0 3.6%;
+    width: 80%;
+    font-size: 1.2rem;
+    max-width: none; /* changed to none */
+  }
 }
-div#navigation > a {
-display: block;
-text-align: right;
-margin: 1rem 0;
-font-size: 1rem;
-}
-div#content {
-margin: 2rem 0 0 20.6%;
-padding: 0 3.6%;
-width: 80%;
-font-size: 1.2rem;
-}
-}
+
 
 
