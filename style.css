@@ -66,12 +66,23 @@ font-weight: normal;
 @media only screen and (min-width: 822px) {
 /* Define styles for small screens */
 div#navigation {
-display: none;
+float: left;
+position: fixed;
+top: 1.5rem;
+width: 17%;
+padding: 0 2%;
+}
+div#navigation > a {
+display: block;
+text-align: right;
+margin: 1rem 0;
+font-size: 1rem;
 }
 div#content {
-margin: 20px 0 0;
-padding: 0 20px;
-width: 100%;
+margin: 2rem 0 0 20.6%;
+padding: 0 3.6%;
+width: 80%;
+font-size: 1.2rem;
 }
 }
 
