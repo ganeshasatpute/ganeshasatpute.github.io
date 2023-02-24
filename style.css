@@ -63,7 +63,7 @@ font-weight: normal;
 
 /* Define class for media queries */
 
-@media only screen and (min-width: 822px) {
+@media all and (min-width: 822px) {
 /* Define styles for small screens */
 div#navigation {
 float: left;
