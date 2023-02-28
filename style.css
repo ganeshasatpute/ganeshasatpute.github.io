@@ -39,6 +39,16 @@ h1,h2,h3 {
   font-family: 'Pompiere', cursive;
   font-weight: normal;
 }
+
+
+@media all and (min-width: 822px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+
 /*
 div#content {
   margin: 12px;
