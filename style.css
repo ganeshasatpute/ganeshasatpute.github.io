@@ -1,6 +1,5 @@
 html {
 background-color: white;
-line-height: 24px;
 height: 100%;
 }
 
@@ -22,7 +21,6 @@ a:hover {
   color: red;
   border: 2px solid red;
   font-weight: 600
- /* background-color: white; */
 }
 
 div#navigation {
@@ -49,70 +47,5 @@ h1,h2,h3 {
 }
 
 
-/*
-div#content {
-  margin: 12px;
-}
-
-
-h1 {
-font-size: 26px;
-
-}
-
-h2 {
-font-size: 22px;
-}
-*/
-
-
-
-/*
-@media all and (max-width: 821px) {
-  div#navigation {
-    position: static;
-    float: none;
-    width: 100%; 
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-  div#navigation > a {
-    display: inline-block;
-    text-align: center;
-    margin: 0.5rem; 
-    font-size: 0.9rem;
-  }
-  div#content {
-    margin: 1rem;
-    padding: 0 2%;
-    max-width: 100%; 
-    font-size: 1rem;
-  }
-}
-
-@media all and (min-width: 822px) {
-  div#navigation {
-    float: left;
-    position: fixed;
-    top: 1.5rem;
-    width: 20%; 
-    padding: 0 2%;
-  }
-  div#navigation > a {
-    display: block;
-    text-align: right;
-    margin: 1rem;
-    font-size: 1rem;
-  }
-  div#content {
-    margin: 2rem 0 0 20%;
-    padding: 0;
-    width: 80%;
-    font-size: 1.5em;
-    max-width: none;
-  }
-}
-
-*/
 
 
