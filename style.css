@@ -6,7 +6,8 @@ height: 100%;
 body {
 color: #555;
 height: 100%;
-font-family: "Catamaran", sans-serif;
+font-family: "Catamaran", "Helvetica Neue", Arial, sans-serif;
+
 }
 
 a {
