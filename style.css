@@ -42,8 +42,8 @@ h1,h2,h3 {
 
 @media all and (min-width: 822px) {
   body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
