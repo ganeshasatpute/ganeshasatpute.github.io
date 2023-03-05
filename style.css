@@ -28,12 +28,10 @@ div#navigation {
   text-align: center;
   font-family: 'Pompiere', cursive;
   font-size: 1.5em;
-  float: left;
 }
 
 div#navigation a {
   display: block;
-  padding: 8px;
   background-color: #dddddd;
 }
 
