@@ -14,10 +14,6 @@ a {
 text-decoration: none;
 }
 
-
-
-
-
 a:hover {
   color: red;
   border: 2px solid red;
@@ -32,7 +28,6 @@ div#navigation {
 
 div#navigation a {
   margin: 0px 5px 0px 5px;
-  background-color: #dddddd;
 }
 
 h1,h2,h3 {
