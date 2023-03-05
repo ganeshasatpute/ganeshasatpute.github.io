@@ -28,11 +28,13 @@ div#navigation {
   text-align: center;
   font-family: 'Pompiere', cursive;
   font-size: 1.5em;
-  text-decoration: underline;
 }
 
 div#navigation a {
   margin: 0px 5px 0px 5px;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 h1,h2,h3 {
