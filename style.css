@@ -35,6 +35,14 @@ h1,h2,h3 {
   font-weight: normal;
 }
 
+.ganesh-pic {
+  float: right;
+  width: 20%;
+  border-radius: 20%;
+  height: auto;
+  margin: 10px 0px 5px 5px;
+}
+
 
 @media all and (min-width: 822px) {
   body {
