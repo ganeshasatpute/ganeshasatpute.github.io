@@ -38,7 +38,7 @@ h1,h2,h3 {
 .ganesh-pic {
   float: right;
   width: 25%;
-  border-radius: 50%;
+  border-radius: 40%;
   height: auto;
 }
 
@@ -52,7 +52,7 @@ h1,h2,h3 {
   .ganesh-pic {
   float: right;
   width: 20%;
-  border-radius: 20%;
+  border-radius: 15%;
   height: auto;
   margin: 10px 0px 5px 5px;
 }
