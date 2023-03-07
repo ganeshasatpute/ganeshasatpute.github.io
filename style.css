@@ -4,11 +4,11 @@ height: 100%;
 }
 
 body {
-color: #555;
-height: 100%;
-font-family: "Catamaran", "Helvetica Neue", sans-serif;
-
+  color: #555;
+  height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
 }
+
 
 a {
 text-decoration: none;
@@ -22,7 +22,6 @@ a:hover {
 
 div#navigation {
   text-align: center;
-  font-family: 'Pompiere', cursive, sans-serif;;
   font-size: 1.5em;
 }
 
@@ -31,7 +30,6 @@ div#navigation a {
 }
 
 h1,h2,h3 {
-  font-family: 'Pompiere', cursive, sans-serif;;
   font-weight: normal;
 }
 
