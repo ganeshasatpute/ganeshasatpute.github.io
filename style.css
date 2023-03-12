@@ -40,6 +40,9 @@ h1,h2,h3 {
   height: auto;
 }
 
+.social {
+	text-align: center;
+}
 
 @media all and (min-width: 822px) {
   body {
