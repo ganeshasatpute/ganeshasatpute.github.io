@@ -1,81 +1,107 @@
 html {
-background-color: white;
-height: 100%;
-}
-
-body {
-  color: #555;
+  background-color: white;
   height: 100%;
-  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
-}
-
-input {
-  caret-color: red;
-}
-
-a {
-text-decoration: none;
-color: #913179;
-}
-
-a:hover {
-  color: red;
-  border: 2px solid red;
-  font-weight: 600
-}
-
-div#navigation {
-  text-align: center;
-}
-
-div#navigation a {
-  margin: 0px 5px 0px 5px;
-}
-
-h1,h2,h3 {
-  font-weight: normal;
-}
-
-h1 {
-    text-align: center;
+  }
+  
+  body {
+    color: #555;
+    height: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+  }
+  
+  input {
+    caret-color: red;
+  }
+  
+  a {
+  text-decoration: none;
+  color: #913179;
+  }
+  
+  a:hover {
+    color: red;
+    border: 2px solid red;
+    font-weight: 600
   }
 
-.ganesh-pic {
-  float: right;
-  width: 25%;
-  border-radius: 40%;
-  height: auto;
-}
-
-.social {
-	display: flex;
-	justify-content: center;
-}
-
-.social a {
-	display: inline-block;
-	width: 48px;
-	height: 48px;
-	margin: 10px;
-}
-
-@media all and (min-width: 822px) {
-  body {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: large;
+  h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+  }
+  
+  div#navigation {
+    text-align: center;
+  }
+  
+  div#navigation a {
+    margin: 0px 5px 0px 5px;
+  }
+  
+  h1,h2,h3 {
+    font-weight: normal;
   }
   
   .ganesh-pic {
-  float: right;
-  width: 20%;
-  border-radius: 15%;
-  height: auto;
-  margin: 10px 0px 5px 5px;
-}
+    float: right;
+    width: 25%;
+    border-radius: 40%;
+    height: auto;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+  }
+  
+  @media all and (min-width: 822px) {
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: large;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    div#navigation {
+      margin-top: 5%;
+      width: 200px;
+      text-align: left;
+      padding: 10px;
+      height: 100vh; /* Full viewport height */
+      position: fixed;
+    }
+  
+    div#navigation a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #913179;
+      margin-bottom: 5px;
+      border-radius: 4px;
+      text-align: center;
+    }
+  
+  
+    #content {
+      margin-left: 220px; /* Match the width of the navigation */
+      margin-right: 110px;
+      flex: 1;
+    }
+  
+    .ganesh-pic {
+      float: right;
+      width: 20%;
+      border-radius: 15%;
+      height: auto;
+      margin: 10px 0px 5px 5px;
+    }
 
-}
-
-
-
-
+    
+  }
