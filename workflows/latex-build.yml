@@ -1,0 +1,18 @@
+name: Build LaTeX documents
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Git repository
+      uses: actions/checkout@v2
+    - name: Compile all LaTeX documents
+      run: |
+        for file in *.tex; do
+          pdflatex -interaction=nonstopmode "$file"
+        done
+    - name: Upload PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: PDFs
+        path: '*.pdf'
