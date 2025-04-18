@@ -60,6 +60,14 @@ html {
     height: 48px;
     margin: 10px;
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 2em;   Adds space above the footer */
+    margin-bottom: 2em;  /* Adds space below the footer */
+    padding: 1em 0;  /* Optional: Adds padding inside the footer */
+ }
   
   @media all and (min-width: 822px) {
     body {
@@ -107,8 +115,4 @@ html {
     
   }
 
-   footer {
-    /* margin-top: 2em;   Adds space above the footer */
-    margin-bottom: 2em;  /* Adds space below the footer */
-    padding: 1em 0;  /* Optional: Adds padding inside the footer */
-  }
+
