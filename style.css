@@ -106,3 +106,9 @@ html {
 
     
   }
+
+   footer {
+    /* margin-top: 2em;   Adds space above the footer */
+    margin-bottom: 2em;  /* Adds space below the footer */
+    padding: 1em 0;  /* Optional: Adds padding inside the footer */
+  }
