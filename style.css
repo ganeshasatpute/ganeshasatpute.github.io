@@ -1,13 +1,13 @@
 html {
-  background-color: white;
+  background-color: #ffffff;
   height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   body {
     color: #555;
     height: 100%;
-    font-family: "Catamaran", sans-serif, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans;
+    /* font-family: "Catamaran", sans-serif, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans; */
   }
   
   input {
